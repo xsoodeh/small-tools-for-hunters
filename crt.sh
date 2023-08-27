@@ -348,8 +348,6 @@ exec_sql() {
 
 exec_sql  "$target" "$flag" "$count" "$file"
 
-echo "=========="
-echo "path:$path"
 
 if [[ -n "$path" ]]; then
 {
